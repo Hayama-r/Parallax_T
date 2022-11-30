@@ -23,8 +23,8 @@ body {
 
 .end{
   height: 50vh;
-  font-size: 2em;
-  font-weight: 400;
+  font-size: 1.5em;
+  font-weight: 600;
 }
 
 .wrapper {
@@ -149,4 +149,24 @@ a{
 
 .fadeup span{
   margin-top: 20px;  
+}
+
+.topbt{
+  position:fixed;
+  bottom: 24px;
+  right: 16px;
+  z-index: 9999;
+}
+
+.topbt a{
+  display: block;
+  text-decoration: none;
+  font-size: 2rem;
+  letter-spacing: 0.03em;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+}
+
+.topbt:hover{
+  opacity: 0.85;
 }
