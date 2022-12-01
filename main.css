@@ -1,11 +1,8 @@
-html {
-  font-size: 10px;
-}
 
 body {
   font-family: 'Noto Sans JP',sans-serif;
   font-family: 'Roboto',sans-serif;
-
+  color: #1d1d1d;
   padding: 0;
   margin: 0;
   font-size: 1.6rem;
@@ -34,6 +31,51 @@ body {
   left: 50%;
   transform: translate(-50%,-50%);
 }
+
+.header {
+  background-color: #eee;
+  position: relative;
+  z-index: 100;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 96%;
+  max-width: 1380px;
+  margin: 0 auto;
+  padding-top: 2rem;
+
+}
+
+.sub{
+  display: none;
+}
+
+.list{
+  display: flex;
+}
+
+.list li:nth-child(even) {
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+li{
+  list-style: none;
+}
+
+.list li a {
+  font-size: 1.8rem;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  white-space: nowrap;
+}
+
+
+
 
 .space {
   display: flex;
@@ -196,14 +238,21 @@ a{
 
 .ct{
   text-align: center;
+  justify-content: center;
 }
 
-ul{
+.ctimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imglist{
   display: flex;
   justify-content: center;
 }
 
-li{
+.lid{
   margin-left: 5px;
   margin-right: 5px;
   list-style: none;
