@@ -29,3 +29,9 @@ fades.forEach((fade, i) => {
     //markers: true,
   });
 });
+
+
+window.onload = function(){
+  const load = document.getElementById('loading');
+  load.classList.add('loaded');
+}
